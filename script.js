@@ -42,6 +42,7 @@ let blackjackGame = {
   
   document.querySelector("#dealButton").addEventListener("click", blackjackDeal);
   
+  
   function blackjackHit() {
     if (blackjackGame["isStand"] === false) {
       let card = randomCard();
@@ -51,10 +52,12 @@ let blackjackGame = {
     }
   }
   
+  
   function randomCard() {
     let randomIndex = Math.floor(Math.random() * 13);
     return blackjackGame["cards"][randomIndex];
   }
+  
   
   function showCard(card, activePlayer) {
     //function to display card on webpage
@@ -74,6 +77,7 @@ let blackjackGame = {
       document.querySelector(activePlayer["div"]).appendChild(cardImage);
     }
   }
+  
   
   function blackjackDeal() {
     // function to start next set of the game (resets everthing except points)
@@ -111,6 +115,7 @@ let blackjackGame = {
     }
   }
   
+  
   function updateScore(card, activePlayer) {
     // function to add the score of cards displayed.
     // If adding 11 keeps me below 21 then add 11. Otherwise, add 1.
@@ -124,6 +129,7 @@ let blackjackGame = {
       activePlayer["score"] += blackjackGame["cardMap"][card];
     }
   }
+  
   
   function showScore(activePlayer) {
     // function to display the score
@@ -158,6 +164,7 @@ let blackjackGame = {
   }
   // compute winner
   // Update wins, losses, and draws
+  
   function computeWinner() {
     // display points after each game
     let winner;
@@ -181,6 +188,7 @@ let blackjackGame = {
   
     return winner;
   }
+  
   
   function showResult(winner) {
     // display the result of Game
@@ -213,6 +221,7 @@ let blackjackGame = {
       alertOnce = true;
     }
   };
+  
   
   window.addEventListener("resize", limitFunc);
   window.addEventListener("onload", limitFunc);
