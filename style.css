@@ -1,8 +1,8 @@
 body {
-    font-size: 16px;
+    font-size: 8px;
     color: black;
     font-family: 'PT Sans', sans-serif;
-    background-image: radial-gradient(rgb(3, 83, 3),rgb(52, 129, 52),rgb(117, 180, 117),rgb(214, 235, 214));
+    background-image: radial-gradient(rgb(219, 63, 63),rgb(235, 81, 89),rgb(241, 143, 143),rgb(245, 165, 165));
   }
   #result{
       text-align: center;
@@ -11,43 +11,43 @@ body {
   }
   
   #Player-Box{
-      font-size: 27px;
-      border-right: 2px solid rgb(33, 77, 8);
-      border-left: 2px solid rgb(33, 77, 8);
-      border-radius: 30px;
+      font-size: 20px;
+      border-right: 2px solid rgb(253, 6, 6);
+      border-left: 2px solid rgb(253, 6, 6);
+      border-radius: 50px;
   }
   
   #Dealer-box{
-      font-size: 27px;
+      font-size: 20px;
       margin-left: 10px;
-      border-left: 2px solid rgb(33, 77, 8);
-      border-right: 2px solid rgb(33, 77, 8);
-      border-radius: 30px;
+      border-left: 2px solid rgb(253, 6, 6);
+      border-right: 2px solid rgb(253, 6, 6);
+      border-radius: 50px;
   }
   
   .row1 {
       display: flex;
-      padding: 10px;
+      padding: 2px;
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
   }
   .row2, .row3{
       display: flex;
-      padding: 10px;
+      padding: 2px;
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-around;
   }
   
   .row1, .row2 {
-          color: white;
+          color: whitesmoke;
   }
   
   .row1 div {
       
-      padding: 10px;
-      height: 500px;
+      padding: 5px;
+      height: 385px;
       flex: 1;
       text-align: center;
       
@@ -57,8 +57,8 @@ body {
       border: 3px solid black;
       height: 180px !important;
       width: 120px !important;
-      margin-right: 4px;
-      border-radius: 15px;  
+      margin-right: 5px;
+      border-radius: 5px;  
       text-align: left !important;
       font-size: 30px;
       display: inline-block;
@@ -71,7 +71,7 @@ body {
       font-size: 80px ;
       text-align: center;
       justify-content: center;
-      color:d ;
+      /* color:d ; */
       
     }
     
@@ -99,10 +99,10 @@ body {
   
   
   table, th, td {
-      height: 60px;
-      width: 600px;
+      height: 62px;
+      width: 500px;
       padding: 5px;
-      border: 2px solid rgb(45, 88, 45);
+      border: 2px solid rgb(88, 45, 45);
       text-align: center;
       font-size: 30px;
   }
@@ -197,11 +197,11 @@ body {
           
       }
       table, th, td {
-          margin-top: -17px;
+          margin-top: -2px;
           height: 10px;
           width: 250px;
           padding: 2px;
-          border: 2px solid rgb(45, 88, 45);
+          border: 2px solid rgb(53, 27, 28);
           text-align: center;
           font-size: 10px;
       }
@@ -235,11 +235,11 @@ body {
           
       }
       table, th, td {
-          margin-top: -17px;
+          margin-top: -2px;
           height: 10px;
           width: 250px;
           padding: 2px;
-          border: 2px solid rgb(45, 88, 45);
+          border: 2px solid rgb(53, 27, 28);
           text-align: center;
           font-size: 10px;
       }
